@@ -14,7 +14,14 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 
 <video autoplay muted loop id="myVideo">
   <source src="20230416_1320431.mp4" type="video/mp4">
-</video>
+</video> 
+<script>
+        function autoRefresh() {
+            window.location = window.location.href;
+        }
+        setInterval('autoRefresh()', 11);
+    </script>
+
 </body>
 
 

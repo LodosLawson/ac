@@ -1,48 +1,18 @@
-<!-- The video -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>DPİ Test</title>
-  <meta charset="UTF-8">
-</head> 
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document DPİ TEST</title>
+</head>
 <body>
-  <header>
-      <nav>
-         <h1> DPİ TEST G.İ.P.İ.A </h1>
-         <p style="float: right">
-            <a href="#"> Home </a> |
-            <a href="#"> About </a> |
-            <a href="#"> Contact Us </a> |
-            <a href="#"> Terms of Services </a> |
-            <a href="#"> Privacy Policy </a>
-         </p>
-      </nav>
-   </header>
-  <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
- Date and Time.</button>
-
-<p id="demo"></p>
-
-<video autoplay muted loop id="myVideo">
-  <source src="20230416_1320431.mp4" type="video/mp4">
-</video> 
-<button id="but" onclick="function3()">Hey</button>
-
-<script>
   
-  document.getElementById("but")
-    function function3(){
-      alert("hey hey...")
-    }
-    function autoRefresh() {
-        window.location = window.location.href;
-    }
-    setInterval('autoRefresh()', 25000);
-</script>
+  <script src="main.js">main.js</script>
+  <input type="tex" id="Settex" value="non">
+  <button type="submit" id="İmport" onclick="SetText()">Set</button>
+  <h1>OutPut</h1><br>
+  <p2 id="OutPutText">....</p2>
+  
 </body>
-  <footer>
-      <h2> © Copyright AC Software 2023 | All Rights Reserved </h2>
-   </footer>
 </html>
-

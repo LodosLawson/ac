@@ -8,7 +8,7 @@
 <body>
   <header>
       <nav>
-         <h1> DPİ TESG *G.İ.P.İ.A </h1>
+         <h1> DPİ TEST G.İ.P.İ.A </h1>
          <p style="float: right">
             <a href="#"> Home </a> |
             <a href="#"> About </a> |
@@ -27,11 +27,17 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 <video autoplay muted loop id="myVideo">
   <source src="20230416_1320431.mp4" type="video/mp4">
 </video> 
+<button onclick="function3">Hey</button>
+
 <script>
+  
+    function function3(){
+      alert("hey hey...")
+    }
     function autoRefresh() {
         window.location = window.location.href;
     }
-    setInterval('autoRefresh()', 5000);
+    setInterval('autoRefresh()', 25000);
 </script>
 </body>
   <footer>

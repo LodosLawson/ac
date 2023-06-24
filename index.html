@@ -27,10 +27,11 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 <video autoplay muted loop id="myVideo">
   <source src="20230416_1320431.mp4" type="video/mp4">
 </video> 
-<button onclick="function3">Hey</button>
+<button id="but" onclick="function3()">Hey</button>
 
 <script>
   
+  document.getElementById("but")
     function function3(){
       alert("hey hey...")
     }
